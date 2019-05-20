@@ -1,0 +1,9 @@
+#!/usr/bin/env /bin/sh
+
+set -e
+
+rm -rf html
+mkdir -p html
+
+D=`date`
+echo "$1 $D" > html/index.html 
